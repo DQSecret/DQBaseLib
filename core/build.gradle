@@ -28,8 +28,10 @@ dependencies {
     api "com.android.support:appcompat-v7:$support_appcompat_version"
 
     api "com.squareup.okhttp3:okhttp:$okhttp3_version"
+    api "com.squareup.okhttp3:logging-interceptor:$okhttp_logging_version"
     api "com.google.code.gson:gson:$gson_version"
     api "com.qiniu:qiniu-android-sdk:$qiniu_version"
+    api "com.android.support:multidex:$multidec_version"
 }
 
 repositories {
