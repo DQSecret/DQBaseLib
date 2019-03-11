@@ -26,7 +26,10 @@ dependencies {
 
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     api "com.android.support:appcompat-v7:$support_appcompat_version"
-    api "com.android.support.constraint:constraint-layout:$constraint_layout_version"
+
+    api "com.squareup.okhttp3:okhttp:$okhttp3_version"
+    api "com.google.code.gson:gson:$gson_version"
+    api "com.qiniu:qiniu-android-sdk:$qiniu_version"
 }
 
 repositories {
